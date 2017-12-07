@@ -17,6 +17,7 @@
 		A40B771D1FD943D200ED2CBB /* iOS_____demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A40B771C1FD943D200ED2CBB /* iOS_____demoUITests.m */; };
 		A40B772C1FD9455200ED2CBB /* sumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A40B772B1FD9455200ED2CBB /* sumManager.m */; };
 		A40B772F1FD9457B00ED2CBB /* NSObject+sum.m in Sources */ = {isa = PBXBuildFile; fileRef = A40B772E1FD9457B00ED2CBB /* NSObject+sum.m */; };
+		A472A8C81FD99562000ECAE1 /* newFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A472A8C71FD99562000ECAE1 /* newFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		A40B772B1FD9455200ED2CBB /* sumManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sumManager.m; sourceTree = "<group>"; };
 		A40B772D1FD9457B00ED2CBB /* NSObject+sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+sum.h"; sourceTree = "<group>"; };
 		A40B772E1FD9457B00ED2CBB /* NSObject+sum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+sum.m"; sourceTree = "<group>"; };
+		A472A8C61FD99562000ECAE1 /* newFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newFile.h; sourceTree = "<group>"; };
+		A472A8C71FD99562000ECAE1 /* newFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				A40B772B1FD9455200ED2CBB /* sumManager.m */,
 				A40B772D1FD9457B00ED2CBB /* NSObject+sum.h */,
 				A40B772E1FD9457B00ED2CBB /* NSObject+sum.m */,
+				A472A8C61FD99562000ECAE1 /* newFile.h */,
+				A472A8C71FD99562000ECAE1 /* newFile.m */,
 			);
 			path = "iOS_链式编程demo";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A472A8C81FD99562000ECAE1 /* newFile.m in Sources */,
 				A40B76FD1FD943D200ED2CBB /* ViewController.m in Sources */,
 				A40B77081FD943D200ED2CBB /* main.m in Sources */,
 				A40B772F1FD9457B00ED2CBB /* NSObject+sum.m in Sources */,
@@ -445,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZZD9JNU3F;
 				INFOPLIST_FILE = "iOS_链式编程demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gyd.iOS-----demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BZZD9JNU3F;
 				INFOPLIST_FILE = "iOS_链式编程demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gyd.iOS-----demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

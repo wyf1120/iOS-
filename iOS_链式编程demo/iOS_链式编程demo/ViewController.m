@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    NSInteger result = [self NumberSumWithBlock:^(sumManager *smg) {
-        smg.add(10).add(15);
+        smg.add(10).add(15).add(3);
    }];
     
     NSLog(@"%ld",result);
